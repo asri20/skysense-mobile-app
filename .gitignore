@@ -1,0 +1,30 @@
+# ===== Node (Backend) =====
+backendSkysense/node_modules/
+backendSkysense/.env
+backendSkysense/.env.*
+backendSkysense/npm-debug.log*
+backendSkysense/yarn-debug.log*
+backendSkysense/yarn-error.log*
+
+# ===== Flutter (Client) =====
+Skysense/build/
+Skysense/.dart_tool/
+Skysense/.flutter-plugins
+Skysense/.flutter-plugins-dependencies
+Skysense/.packages
+
+# Android/iOS build caches (opsional, aman diignore)
+Skysense/android/.gradle/
+Skysense/android/app/build/
+Skysense/ios/Pods/
+Skysense/ios/.symlinks/
+Skysense/ios/Flutter/Flutter.framework
+Skysense/ios/Flutter/Flutter.podspec
+Skysense/ios/Flutter/App.framework
+
+# ===== General =====
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
